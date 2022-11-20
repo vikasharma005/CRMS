@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>SignUp and Login</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/f<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -84,10 +79,8 @@
         <div class="panel left-panel">
           <div class="content">
             <h3>New here ?</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-              ex ratione. Aliquid!
-            </p>
+            <h1>Hello, User!</h1>
+			<p>Enter your details and start your journey with full security</p>
             <button class="btn transparent" id="sign-up-btn">
               Sign up
             </button>
@@ -97,10 +90,8 @@
         <div class="panel right-panel">
           <div class="content">
             <h3>One of us ?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laboriosam ad deleniti.
-            </p>
+            			<h1>Welcome Back!</h1>
+			<p>To keep connected with us please login with your personal info</p>
             <button class="btn transparent" id="sign-in-btn">
               Sign in
             </button>
@@ -110,83 +101,8 @@
       </div>
     </div>
 
-    <script src="sign.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
-ont-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
-<div class="container" id="container">
-<div class="form-container sign-up-container">
-
-<form action="">
-	<h1>Create Account</h1>
-	<div class="social-container">
-		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
-		<a href="#" class="social"><i class="fa fa-google"></i></a>
-		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
-	</div>
-	<span>or use your email for registration</span>
-	<input type="text" name="name" placeholder="Name">
-	<input type="email" name="email" placeholder="Email">
-	<input type="password" name="password" placeholder="Password">
-	<button>SignUp</button>
-</form>
-</div>
-<div class="form-container sign-in-container">
-	<form action="#">
-		<h1>Sign In</h1>
-		<div class="social-container">
-		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
-		<a href="#" class="social"><i class="fa fa-google"></i></a>
-		<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
-	</div>
-	<span>or use your account</span>
-	<input type="email" name="email" placeholder="Email">
-	<input type="password" name="password" placeholder="Password">
-	<a href="#">Forgot Your Password</a>
-
-	<button>Sign In</button>
-	</form>
-</div>
-<div class="overlay-container">
-	<div class="overlay">
-		<div class="overlay-panel overlay-left">
-			<h1>Welcome Back!</h1>
-			<p>To keep connected with us please login with your personal info</p>
-			<button class="ghost" id="signIn">Sign In</button>
-		</div>
-		<div class="overlay-panel overlay-right">
-			<h1>Hello, User!</h1>
-			<p>Enter your details and start your journey with full security</p>
-			<button class="ghost" id="signUp">Sign Up</button>
-		</div>
-	</div>
-</div>
-</div>
-
-<script type="text/javascript">
-	const signUpButton = document.getElementById('signUp');
-	const signInButton = document.getElementById('signIn');
-	const container = document.getElementById('container');
-
-	signUpButton.addEventListener('click', () => {
-		container.classList.add("right-panel-active");
-	});
-	signInButton.addEventListener('click', () => {
-		container.classList.remove("right-panel-active");
-	});
-</script>
-
-
-</body>
-</html>
-
-
-
-
-
-
 
 
